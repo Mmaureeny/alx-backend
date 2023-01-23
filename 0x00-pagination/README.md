@@ -3,15 +3,15 @@
 
 ## TASKS
 
-[0-simple_helper_function.py](https://linktodocumentation)
+[0-simple_helper_function.py](https://github.com/Mmaureeny/alx-backend/blob/master/0x00-pagination/0-simple_helper_function.py)
 
 Write a function named index_range that takes two integer arguments page and page_size
 
-[1-simple_pagination.py](https://linktodocumentation)
+[1-simple_pagination.py](https://github.com/Mmaureeny/alx-backend/blob/master/0x00-pagination/1-simple_pagination.py)
 
 implement a method named get_page that takes two integer arguments page with default value 1 and page_size with default value 10
 
-[2-hypermedia_pagination.py](https://linktodocumentation)
+[2-hypermedia_pagination.py](https://github.com/Mmaureeny/alx-backend/blob/master/0x00-pagination/2-hypermedia_pagination.py)
 
 eplicate code from the previous task.
 
@@ -25,7 +25,7 @@ prev_page: number of the previous page, None if no previous page
 total_pages: the total number of pages in the dataset as an integer
 Make sure to reuse get_page in your implementation.
 
-[3-hypermedia_del_pagination.py](https://linktodocumentation)
+[3-hypermedia_del_pagination.py](https://github.com/Mmaureeny/alx-backend/blob/master/0x00-pagination/3-hypermedia_del_pagination.py)
 
 The goal here is that if between two queries, certain rows are removed from the dataset, the user does not miss items from dataset when changing page.
 implement a get_hyper_index method with two integer arguments: index with a None default value and page_size with default value of 10.

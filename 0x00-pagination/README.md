@@ -3,8 +3,11 @@ A simple search  API requests will return a large number of results. Rather than
 
 Paging is accomplished through two query parameters: $limit and $offset. Note that using paging is entirely optional: if you do not specify the $limit and $offset parameters, then the defaults will be used.
 
-## TASKS
+## Documentation
+[Pagination](https://www.moesif.com/blog/technical/api-design/REST-API-Design-Filtering-Sorting-and-Pagination/#pagination)
+[HATEOAS](https://en.wikipedia.org/wiki/HATEOAS)
 
+## TASKS
 [0-simple_helper_function.py](https://github.com/Mmaureeny/alx-backend/blob/master/0x00-pagination/0-simple_helper_function.py)
 
 Write a function named index_range that takes two integer arguments page and page_size
